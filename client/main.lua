@@ -3,16 +3,16 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
 
         -- Peds
-        SetScenarioPedDensityMultiplierThisFrame(Config.PedDensity)
+        SetScenarioPedDensityMultiplierThisFrame(Config.ScenarioPedDensity)
         SetAmbientPedDensityMultiplierThisFrame(Config.PedDensity)
         --SetScenarioPedDensityThisFrame(configHash)
 
         -- Animals
-        SetScenarioAnimalDensityMultiplierThisFrame(Config.AnimalDensity)
+        SetScenarioAnimalDensityMultiplierThisFrame(Config.ScenarioAnimalDensity)
         SetAmbientAnimalDensityMultiplierThisFrame(Config.AnimalDensity)
 
         -- Humans
-        SetScenarioHumanDensityMultiplierThisFrame(Config.HumanDensity)
+        SetScenarioHumanDensityMultiplierThisFrame(Config.ScenarioHumanDensity)
         SetAmbientHumanDensityMultiplierThisFrame(Config.HumanDensity)
 
         -- Vehicles
